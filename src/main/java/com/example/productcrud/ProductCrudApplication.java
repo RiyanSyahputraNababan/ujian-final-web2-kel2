@@ -9,4 +9,5 @@ public class ProductCrudApplication {
     public static void main(String[] args) {
         SpringApplication.run(ProductCrudApplication.class, args);
     }
+
 }

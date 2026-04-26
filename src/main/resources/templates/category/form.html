@@ -1,0 +1,10 @@
+<h2>Form Category</h2>
+
+<form action="/categories/save" method="post" th:object="${category}">
+  <input type="hidden" th:field="*{id}" />
+
+  <label>Nama:</label>
+  <input type="text" th:field="*{name}" />
+
+  <button type="submit">Simpan</button>
+</form>
